@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+}
+header {
+  background: #3b5998;
+}
+.logo-area {
+  color: white;
+  display: inline-block;
+}
+.logo-area a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menuTwo {
+  display: inline-block;
+}
+.menuTwo ul li {
+  display: inline-block;
+}
+.iconLinks {
+  display: inline-block;
+}
+.iconLinks ul li {
+  display: inline-block;
+}
+.icon-links ul li .privacy {
+  display: inline-block;
+}
