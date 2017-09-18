@@ -1,12 +1,18 @@
 html {
   font-family: sans-serif;
 }
+.container {
+  width: 100%;
+  height: 100%;
+}
 header {
   background: #3b5998;
+  padding: 15px;
 }
 .logo-area {
   color: white;
   display: inline-block;
+  width: 20%;
 }
 .logo-area a {
   color: white;
@@ -15,16 +21,37 @@ header {
 }
 .menuTwo {
   display: inline-block;
+  width: 20%;
+  /*margin-left: -4px;*/
+  border-right: 1px solid white;
 }
 .menuTwo ul li {
   display: inline-block;
 }
 .iconLinks {
   display: inline-block;
+  width: 20%;
+  border-right: 1px solid white;
 }
-.iconLinks ul li {
+.iconLinks ul li{
   display: inline-block;
+  margin: 0 20px 0 20px;
 }
-.icon-links ul li .privacy {
+.iconLinks .quick-options{
+  display: inline-block;
+  margin-left: -4px;
+}
+.iconLinks .privacy {
+  display: inline-block;
+  width:10%;
+  /*margin-left: -4px;*/
+}
+.search-area {
+  display: inline-block;
+  width: 30%;
+  margin-left: -4px;
+  text-align: right;
+}
+.search-area ul li{
   display: inline-block;
 }
