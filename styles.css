@@ -9,49 +9,71 @@ header {
   background: #3b5998;
   padding: 15px;
 }
+header a {
+  color: white;
+  font-size: 12px;
+}
 .logo-area {
   color: white;
   display: inline-block;
   width: 20%;
 }
 .logo-area a {
-  color: white;
   text-decoration: none;
   font-size: 20px;
+  font-family: courier;
+  padding-left: 20px;
 }
 .menuTwo {
   display: inline-block;
   width: 20%;
-  /*margin-left: -4px;*/
+  text-align:right;
   border-right: 1px solid white;
+}
+.menuTwo ul {
+  margin-right: 40px;
 }
 .menuTwo ul li {
   display: inline-block;
+  margin-right: 30px;
+}
+.menuTwo ul li a {
+  color: white;
 }
 .iconLinks {
   display: inline-block;
   width: 20%;
+}
+.iconLinks ul {
   border-right: 1px solid white;
 }
 .iconLinks ul li{
   display: inline-block;
-  margin: 0 20px 0 20px;
+  margin: 0 10px;
 }
 .iconLinks .quick-options{
   display: inline-block;
-  margin-left: -4px;
 }
 .iconLinks .privacy {
   display: inline-block;
   width:10%;
-  /*margin-left: -4px;*/
+  margin-left: 15px;
+  color: white;
+  font-size: 14px;
 }
 .search-area {
   display: inline-block;
   width: 30%;
-  margin-left: -4px;
+  margin-left: 65px; /* margin for search box positioning*/
   text-align: right;
 }
 .search-area ul li{
   display: inline-block;
+}
+#top-area { 
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
