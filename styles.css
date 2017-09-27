@@ -121,13 +121,20 @@ header a {
   width: 35%;
   height: 900px;
   margin: 0 2.5%;
-  background-color: red;
   float: left;
 }
 #content-area .main-area{
   width: 55%;
   height: 600px;
   margin: 0 2.5%;
-  background-color: blue;
   float: left;
+}
+.widget-image {
+  background-color: #f6f6f6;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 15px;
+  color: red;
 }
