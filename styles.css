@@ -76,7 +76,7 @@ header a {
 /* style section for the top marqee type area */
 
 #top-area {
-  background: url(https://static.pexels.com/photos/368015/pexels-photo-368015.jpeg) no-repeat center center ; 
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGF_ntoyPk2vqw8oM87o0UDArUd1nhiUxh0NDDu8OcfhB23r6vnA) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -117,24 +117,255 @@ header a {
   background: #2196f3;
   transition: all ease-in-out 300ms;
 }
+#content-area {
+  margin-top:15px;
+}
 #content-area .side-area {
-  width: 35%;
-  height: 900px;
+  width: 27.25%;
+  height: 1900px;
   margin: 0 2.5%;
+  background-color: white;
   float: left;
 }
 #content-area .main-area{
   width: 55%;
-  height: 600px;
+  height: 958px;
   margin: 0 2.5%;
+  /* background-color: blue; */
   float: left;
 }
-.widget-image {
+/* beginning of info area css */
+#info {
+ height: 150px;
+ width: 344px;
+ background: #f6f6f6;
+ box-shadow: rgba(0,0,0,.5) 1px 1px 3px;
+ margin-bottom: 30px;
+ border-radius: 4px;
+  
+}
+.info-section-icon {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.info-title{
+  font-family: courier;
+  display: inline-block;
+  padding: 5px 240px 0 5px;
+  vertical-align: top;
+  font-size: 16px;
+}
+.info-body p {
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
+  margin-top: 8px;
+}
+.info-body h6 {
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
+  display: inline-block;
+  margin-right: 185px;
+}
+.info-body i {
+  display:inline-block;
+  font-size: 12px;
+}
+.info-body a {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+/* beginning of photo collage area css */
+
+#pics {
+ background: #f6f6f6;
+ box-shadow: rgba(0,0,0,.5) 1px 1px 3px;
+ margin-top: 30px;
+ border-radius: 4px;
+}
+
+.section-icon {
+  display:inline-block;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: 13px;
+
+}
+.photos {
+  font-family: courier;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 220px 0 5px;
+  /* text-transform: uppercase; */
+  vertical-align: top;
+  padding-top: 6px;
+}
+.caret {
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+/* beginning of photos collage area */
+
+.wrapper {
+  width: 340px;
+  height: 340px;
+  padding: .25em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.wrapper > div {
+  background: #262626;
+}
+/* beginning of friends-area css*/
+
+#friends-area {
+ height: 375x;
+ width: 348px;
+ background: #f6f6f6;
+ box-shadow: rgba(0,0,0,.5) 1px 1px 3px;
+ margin-top: 30px;
+}
+
+.section-icon {
+  display:inline-block;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: 13px;
+
+}
+.friends {
+  font-family: courier;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0 220px 0 5px;
+  /* text-transform: uppercase; */
+  vertical-align: top;
+  padding-top: 6px;
+}
+.caret {
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+/* beginning of photos collage area */
+
+.wrapper {
+  width: 340px;
+  height: 340px;
+  padding: .25em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.wrapper > div {
+  background: #262626;
+}
+/* beginning of the mainOne CSS*/
+.mainOne {
+  height:555px;
+  width: 640px;
+  border-radius: 4px;
   background-color: #f6f6f6;
-  height: 30px;
-  width: 30px;
+  box-shadow: rgba(0,0,0,.5) 1px 1px 3px;
+}
+.name img {
+  margin: 5px 10px 5px 5px;
+  border-radius: 50%;
+}
+.nameDate {
+  display: inline-block;
+  font-size:12px;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-right: 360px;
+}
+.nameDate span {
+  font-size: 4px;
   text-align: center;
-  vertical-align: center;
+  /* display: inline-block; */
+}
+.nameDate-caret {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.like {
+  height: 40px;
+  width: 640px;
+}
+.like .fa-thumbs-up {
+  margin: 10px 15px 5px 15px;
+}
+.like .fa-share {
+  margin: 10px 515px 5px 5px;
+}
+.like .fa-comment {
+  margin: 15px 15px 5px 5px;
+}
+.like p {
+  font-size: 12px;
+  display: inline-block;
+}
+.comment {
+  width: 640px;
+  height:100px;
+  background: #eeeeee;
+}
+.comment img { 
+  border-radius: 50%;
+  margin: 5px 10px 0 5px;
+}
+.comment a {
+  display: inline-block;
+  vertical-align: top;
   margin-top: 15px;
-  color: red;
+  margin-right: 345px;
+  font-size: 12px;
+  
+}
+.comment .time {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.comment p {
+  font-size: 12px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.write img {
+  margin: 10px 10px 5px 5px;
+  border-radius: 50%;
+}
+.write textarea {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.write .fa-camera-retro {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 10px 5px 5px;
+}
+.write .fa-trophy {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 15px 5px 5px;
 }
